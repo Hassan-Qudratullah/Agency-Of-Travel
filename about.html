@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dfd07b; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            padding: 50px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            margin-bottom: 40px;
+        }
+  
+        .team-members {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+  
+        .team-member {
+            text-align: center;
+            margin: 20px;
+            transition: transform 0.3s ease; 
+        }
+  
+        .team-member img {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%;
+        }
+
+        .team-member:hover {
+            transform: scale(1.3); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h3>About Us</h3>
+            <p>Our company is dedicated to providing the best travel experiences to our customers. We specialize in creating custom itineraries that cater to each individual's interests and preferences.</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/team1.jpg" alt="Sami Khan">
+                    <h4>Sami Khan</h4>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team2.jpg" alt="Ali Raza">
+                    <h4>Ali Raza</h4>
+                    <p>Head of Operations</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team3.jpg" alt="Huzaifa Khan">
+                    <h4>Huzaifa Khan</h4>
+                    <p>Marketing Director</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

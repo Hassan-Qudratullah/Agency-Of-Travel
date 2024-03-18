@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dfd07b; 
+
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch; /* Adjusted to ensure equal height for all cards */
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+
+        .form-section {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #3247bd;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-image {
+            text-align: center;
+            margin-top: 20px;
+            flex: 1;
+        }
+
+        .contact-image img {
+            border-radius: 5px;
+            width: 300px;
+            height: 300px;
+            border-radius: 30%;
+        }
+
+        .contact-image p {
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact">
+        
+        <div class="card contact-info">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to book a trip, please fill out the form below or contact us using the information provided.</p>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Hyderabad, Sindh, Pakistan</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:shaikhmohammadhassan0@gmail.com">Email Us</a></li>
+                <li><i class="fas fa-phone-alt"></i> <a href="tel:+923433408009">Contact Us</a></li>
+            </ul>
+        </div>
+
+       
+        <div class="card form-section">
+            <h2>Get in Touch</h2>
+            <form action="#" class="form">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        
+        <div class="card contact-image">
+            <h2>Mohammad Hassan</h2>
+            <img src="images/pic.png" alt="Contact Image">
+            <p> Contact us on WhatsApp: <a href="https://wa.me/+923043793701">+92 3043793701</a></p>
+        </div>
+    </section>
+
+        <p>Name: M.Hassan</p>
+        <p>Age: 13</p>
+        <p>Class: VIII</p>
+        <p>Roll No: 7121</p>
+        <footer>
+            &copy; 2024 Travel Agency. All rights reserved 
+        </footer>
+
+</body>
+</html>

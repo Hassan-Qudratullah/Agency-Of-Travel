@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tours - Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dfd07b; 
+        }
+
+        header nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .destinations {
+            margin-bottom: 40px;
+        }
+  
+        .destination-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+  
+        .destination-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .destination-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .destination-item:hover {
+            transform: scale(1.05);
+        }
+
+        .destination-item:hover img {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Tours</h2>
+            <p>Explore our exciting tours below:</p>
+            <div class="destination-grid">
+                <div class="destination-item">
+                    <img src="images/destination-1.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>Visit the city that never sleeps and discover its iconic landmarks, world-class museums, and diverse neighborhoods.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="images/destination-2.jpg" alt="Paris">
+                    <h3>Paris</h3>
+                    <p>Experience the romance and culture of the City of Lights, from the Eiffel Tower to the Louvre Museum.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="images/destination-3.jpg" alt="Tokyo">
+                    <h3>Tokyo</h3>
+                    <p>Explore the vibrant city of Tokyo and immerse yourself in its unique blend of ancient traditions and modern technology.</p>
+                </div>
+            </div>
+            <p>Embarking on a tour not only allows you to discover new destinations and cultures but also provides a rejuvenating escape from the routine hustle and bustle of daily life. Whether it's witnessing breathtaking landscapes, indulging in local cuisine, or engaging in thrilling activities, each tour offers a unique blend of adventure and relaxation. Let our expertly crafted tours be your gateway to unforgettable experiences and cherished memories.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Travel Agency. All rights reserved 
+    </footer>
+</body>
+</html>
